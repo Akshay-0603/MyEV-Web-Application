@@ -1,0 +1,44 @@
+.compare-label{
+    padding-top: 10vh;
+    display:flex;
+    justify-content:space-evenly;
+    width: auto;
+    margin: auto;
+}
+.compare-label select{
+    text-align: center;
+    border-radius: 10%;
+    width: auto;
+}
+.compare-label label{
+    width: fit-content;
+    border: none;
+    /* min-width: 6rem; */
+    padding: 1vw 3vw;
+    color: black;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    margin: 0;
+    
+    box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+    transition: all 300ms ease-out;
+    text-transform: capitalize;
+}
+.compare-cont{
+   border: 2px solid white;
+   border-radius: 10%;
+   display: flex;
+   box-shadow: black;
+   z-index: 13;
+}
+.resize-table{
+    display: flex;
+    width:50vw;
+}
+.compare-table{
+    align-content: center;
+    display:flex;
+    justify-content:space-around;
+   
+}

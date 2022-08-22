@@ -1,0 +1,25 @@
+.cont{
+            
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    border: 3px solid yellowgreen;
+    background-color: white;
+}
+.cont img{
+    width: 40%;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+.cont .card1{
+    margin: auto;
+    padding: 20px;
+    font-size: 1.5rem;
+    
+}
+main{
+    display: flex;
+    height: 100%;
+    background-color: #4070f4;
+}
